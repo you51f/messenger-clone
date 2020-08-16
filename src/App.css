@@ -2,37 +2,37 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App > h1 {
+  color: #50b7f5;
+  font-style: oblique;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App > h2 {
+  font-style: oblique;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #50b7f5;
+  width: 50%;
+  margin-bottom: 20px;
+
+  border-radius: 25px;
+  margin-left: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__input {
+  flex: 1;
+}
+
+.app__iconButton {
+  flex: 0;
 }
